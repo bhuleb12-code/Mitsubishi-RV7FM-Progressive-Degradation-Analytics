@@ -1,0 +1,6 @@
+predictive_maintenance_class,operations,median_early_awareness_lead,median_maintenance_opportunity,min_maintenance_opportunity,max_maintenance_opportunity,median_monitoring_lead,median_confirmation_delay
+INSPECTION_ACTIONABLE,1,531.0,531.0,531.0,531.0,,0.0
+INSUFFICIENT_OBSERVABILITY,6,,,,,,
+MONITORING_ONLY,3,359.0,,,,359.0,
+NO_ACTIONABLE_WARNING,1,,,,,,
+STRONG_ACTIONABLE,5,1334.0,1011.0,630.0,1054.0,,330.0

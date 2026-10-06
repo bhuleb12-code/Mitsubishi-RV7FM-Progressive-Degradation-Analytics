@@ -1,0 +1,9 @@
+maintenance_alert,probe_tier,maintenance_action,decision_confidence,maintenance_priority,maintenance_recommendation
+NORMAL,LOW_OBSERVABILITY,CONTINUE_OPERATION,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+NORMAL,PRIMARY,CONTINUE_OPERATION,HIGH,0,Continue normal operation and routine condition monitoring.
+NORMAL,SECONDARY,CONTINUE_OPERATION,HIGH,0,Continue normal operation and routine condition monitoring.
+NORMAL,SUPPORTING,CONTINUE_OPERATION,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+WATCH,PRIMARY,INCREASE_MONITORING,HIGH,1,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+WATCH,SECONDARY,INCREASE_MONITORING,MODERATE,1,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+WARNING,SUPPORTING,TARGETED_INSPECTION,MODERATE,2,Schedule targeted inspection of the Joint 3 actuator/mechanical drive system and confirm condition using a PRIMARY diagnostic probe.
+CRITICAL,PRIMARY,PRIORITIZE_MAINTENANCE,VERY_HIGH,3,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.

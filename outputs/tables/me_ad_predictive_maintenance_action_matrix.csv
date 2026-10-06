@@ -1,0 +1,6 @@
+predictive_maintenance_class,maintenance_readiness,business_priority,highest_maintenance_action,decision_confidence,maintenance_recommendation
+MONITORING_ONLY,ENHANCED_MONITORING,ENHANCED_MONITORING,INCREASE_MONITORING,MODERATE,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+STRONG_ACTIONABLE,READY_FOR_MAINTENANCE_PLANNING,MAINTENANCE_PRIORITY,PRIORITIZE_MAINTENANCE,VERY_HIGH,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+INSUFFICIENT_OBSERVABILITY,REQUIRE_DIAGNOSTIC_PROBE,ROUTINE,CONTINUE_OPERATION,LIMITED,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+NO_ACTIONABLE_WARNING,ROUTINE_MONITORING,ROUTINE,CONTINUE_OPERATION,LIMITED,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+INSPECTION_ACTIONABLE,READY_FOR_TARGETED_INSPECTION,TARGETED_INSPECTION,TARGETED_INSPECTION,MODERATE,Schedule targeted inspection of the Joint 3 actuator/mechanical drive system and confirm condition using a PRIMARY diagnostic probe.

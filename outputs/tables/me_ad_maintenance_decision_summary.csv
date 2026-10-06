@@ -1,0 +1,17 @@
+operation_code,diagnostic_group,probe_rank,probe_tier,probe_utility_pct,highest_alert,highest_maintenance_action,highest_priority,decision_confidence,first_highest_priority_cycle,maintenance_recommendation
+1053,robust,1,PRIMARY,100.0,CRITICAL,PRIORITIZE_MAINTENANCE,3,VERY_HIGH,950,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+1050,robust,2,PRIMARY,99.02751423149904,CRITICAL,PRIORITIZE_MAINTENANCE,3,VERY_HIGH,1000,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+1051,robust,3,PRIMARY,98.98007590132826,CRITICAL,PRIORITIZE_MAINTENANCE,3,VERY_HIGH,1000,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+1052,robust,4,PRIMARY,98.81404174573056,CRITICAL,PRIORITIZE_MAINTENANCE,3,VERY_HIGH,1000,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+1101,robust,5,PRIMARY,88.55418511490618,CRITICAL,PRIORITIZE_MAINTENANCE,3,VERY_HIGH,1250,Prioritize maintenance assessment of the Joint 3 actuator/mechanical drive system and plan intervention while analytical warning lead remains.
+2500,robust,9,SUPPORTING,43.79743833017078,WARNING,TARGETED_INSPECTION,2,MODERATE,1050,Schedule targeted inspection of the Joint 3 actuator/mechanical drive system and confirm condition using a PRIMARY diagnostic probe.
+1102,moderate,6,SECONDARY,56.57240494764214,WATCH,INCREASE_MONITORING,1,MODERATE,1520,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+1103,moderate,7,SECONDARY,56.10944198467918,WATCH,INCREASE_MONITORING,1,MODERATE,1520,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+1100,moderate,8,SECONDARY,55.6701981868016,WATCH,INCREASE_MONITORING,1,MODERATE,1520,Continue production while increasing condition-monitoring frequency and repeat a preferred diagnostic probe.
+2000,moderate,10,SUPPORTING,8.333333333333334,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+2100,weak,11,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+2200,weak,12,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+2300,weak,13,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+2400,weak,14,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+3000,weak,15,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."
+3100,weak,16,LOW_OBSERVABILITY,0.0,NORMAL,CONTINUE_OPERATION,0,LIMITED,0,"Continue operation, but do not treat this trajectory alone as strong evidence of healthy mechanical condition."

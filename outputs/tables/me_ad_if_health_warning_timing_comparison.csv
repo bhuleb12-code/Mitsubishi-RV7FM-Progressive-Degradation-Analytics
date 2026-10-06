@@ -1,0 +1,17 @@
+operation_code,diagnostic_group,evident_fault_start_cycle,if_warning_detected,if_warning_cycle,if_warning_lead_cycles,health_warning_detected,health_warning_cycle,health_warning_lead_cycles,timing_relationship,if_minus_health_warning_cycles,absolute_warning_timing_gap
+1050,robust,2013,True,420.0,1593.0,True,1000.0,1013.0,if_earlier,-580.0,580.0
+1051,robust,2011,True,170.0,1841.0,True,1000.0,1011.0,if_earlier,-830.0,830.0
+1052,robust,2004,True,670.0,1334.0,True,1000.0,1004.0,if_earlier,-330.0,330.0
+1053,robust,2004,True,720.0,1284.0,True,950.0,1054.0,if_earlier,-230.0,230.0
+1100,moderate,1881,True,1520.0,361.0,False,,,if_only,,
+1101,robust,1880,True,1020.0,860.0,True,1250.0,630.0,if_earlier,-230.0,230.0
+1102,moderate,1879,True,1520.0,359.0,False,,,if_only,,
+1103,moderate,1879,True,1520.0,359.0,False,,,if_only,,
+2000,moderate,1555,False,,,False,,,neither_warns,,
+2100,weak,1549,False,,,False,,,neither_warns,,
+2200,weak,1558,False,,,False,,,neither_warns,,
+2300,weak,1553,False,,,False,,,neither_warns,,
+2400,weak,1552,False,,,False,,,neither_warns,,
+2500,robust,1581,False,,,True,1050.0,531.0,health_only,,
+3000,weak,1545,False,,,False,,,neither_warns,,
+3100,weak,1580,False,,,False,,,neither_warns,,

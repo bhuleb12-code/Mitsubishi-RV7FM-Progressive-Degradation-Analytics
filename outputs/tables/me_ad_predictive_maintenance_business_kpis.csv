@@ -1,0 +1,14 @@
+kpi_name,kpi_value,unit,interpretation
+Total operating conditions assessed,16.0,operations,Number of Mitsubishi operating conditions included in the final maintenance synthesis.
+Primary diagnostic probes,5.0,operations,Operating trajectories classified as preferred recurring diagnostic health probes.
+Strong actionable conditions,5.0,operations,Conditions where persistent health and anomaly evidence supports maintenance planning.
+Inspection-actionable conditions,1.0,operations,Conditions supporting targeted inspection without full independent warning convergence.
+Monitoring-only conditions,3.0,operations,Conditions showing persistent abnormality but insufficient evidence for direct maintenance escalation.
+Low-observability conditions,6.0,operations,Conditions unsuitable for standalone early-warning maintenance decisions.
+Median early-awareness lead,1334.0,cycles,Median analytical lead from the first persistent signal to the evident-fault boundary for strong actionable conditions.
+Median confirmation delay,330.0,cycles,Median interval between first persistent analytical awareness and actionable maintenance confirmation.
+Median confirmed maintenance opportunity,1011.0,cycles,Median confirmed intervention-planning window before the evident-fault region.
+Minimum confirmed maintenance opportunity,630.0,cycles,Smallest confirmed maintenance-planning window among strong actionable conditions.
+Maximum confirmed maintenance opportunity,1054.0,cycles,Largest confirmed maintenance-planning window among strong actionable conditions.
+Median pre-fault sequence remaining at escalation,50.27349577324715,percent,Median proportion of the observed pre-evident-fault sequence remaining when actionable maintenance evidence was established.
+Median primary-probe utility,98.98007590132826,percent,Median diagnostic utility score across PRIMARY health-probe trajectories.

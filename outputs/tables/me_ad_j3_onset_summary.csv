@@ -1,0 +1,17 @@
+operation_code,evident_fault_start_cycle,onset_detected,candidate_onset_cycle,early_warning_lead_cycles,persistent_effort_features_at_onset,persistent_motion_features_at_onset
+1050,2013,True,200.0,1813.0,3.0,1.0
+1051,2011,True,150.0,1861.0,2.0,0.0
+1052,2004,True,100.0,1904.0,2.0,0.0
+1053,2004,True,125.0,1879.0,2.0,0.0
+1100,1881,True,100.0,1781.0,2.0,0.0
+1101,1880,True,100.0,1780.0,2.0,0.0
+1102,1879,True,175.0,1704.0,2.0,0.0
+1103,1879,True,100.0,1779.0,2.0,0.0
+2000,1555,False,,,,
+2100,1549,False,,,,
+2200,1558,False,,,,
+2300,1553,False,,,,
+2400,1552,False,,,,
+2500,1581,True,775.0,806.0,3.0,0.0
+3000,1545,False,,,,
+3100,1580,False,,,,

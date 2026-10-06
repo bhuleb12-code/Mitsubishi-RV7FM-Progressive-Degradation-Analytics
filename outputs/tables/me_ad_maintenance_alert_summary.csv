@@ -1,0 +1,17 @@
+operation_code,diagnostic_group,evident_fault_start_cycle,if_warning_detected,health_warning_detected,first_watch_cycle,watch_lead_cycles,first_warning_cycle,warning_lead_cycles,first_critical_cycle,critical_lead_cycles,maintenance_response_category
+1050,robust,2013,True,True,420.0,1593.0,,,1000.0,1013.0,convergent_degradation
+1051,robust,2011,True,True,170.0,1841.0,,,1000.0,1011.0,convergent_degradation
+1052,robust,2004,True,True,670.0,1334.0,,,1000.0,1004.0,convergent_degradation
+1053,robust,2004,True,True,720.0,1284.0,,,950.0,1054.0,convergent_degradation
+1100,moderate,1881,True,False,1520.0,361.0,,,,,statistical_watch_only
+1101,robust,1880,True,True,1020.0,860.0,,,1250.0,630.0,convergent_degradation
+1102,moderate,1879,True,False,1520.0,359.0,,,,,statistical_watch_only
+1103,moderate,1879,True,False,1520.0,359.0,,,,,statistical_watch_only
+2000,moderate,1555,False,False,,,,,,,no_persistent_alert
+2100,weak,1549,False,False,,,,,,,no_persistent_alert
+2200,weak,1558,False,False,,,,,,,no_persistent_alert
+2300,weak,1553,False,False,,,,,,,no_persistent_alert
+2400,weak,1552,False,False,,,,,,,no_persistent_alert
+2500,robust,1581,False,True,,,1050.0,531.0,,,health_confirmed_only
+3000,weak,1545,False,False,,,,,,,no_persistent_alert
+3100,weak,1580,False,False,,,,,,,no_persistent_alert

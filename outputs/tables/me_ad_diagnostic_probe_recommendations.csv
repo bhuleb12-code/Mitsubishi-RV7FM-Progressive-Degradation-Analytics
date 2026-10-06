@@ -1,0 +1,17 @@
+probe_rank,operation_code,diagnostic_group,probe_tier,probe_utility_pct,health_detection_rate_pct,health_robustness_median_lead,if_warning_detected,health_warning_detected,if_warning_lead_cycles,health_warning_lead_cycles,critical_lead_cycles,faulty_anomaly_rate_pct,intermediate_anomaly_rate_pct,maintenance_response_category,recommended_maintenance_use
+1,1053,robust,PRIMARY,100.0,100.0,1059.0,True,True,1284.0,1054.0,1054.0,100.0,86.0320744956027,convergent_degradation,Preferred recurring diagnostic health-probe trajectory
+2,1050,robust,PRIMARY,99.02751423149905,100.0,1543.0,True,True,1593.0,1013.0,1013.0,100.0,87.88659793814433,convergent_degradation,Preferred recurring diagnostic health-probe trajectory
+3,1051,robust,PRIMARY,98.98007590132826,100.0,1241.0,True,True,1841.0,1011.0,1011.0,100.0,95.25773195876288,convergent_degradation,Preferred recurring diagnostic health-probe trajectory
+4,1052,robust,PRIMARY,98.81404174573055,100.0,1034.0,True,True,1334.0,1004.0,1004.0,100.0,82.82462493533367,convergent_degradation,Preferred recurring diagnostic health-probe trajectory
+5,1101,robust,PRIMARY,88.55418511490618,94.44444444444444,860.0,True,True,860.0,630.0,630.0,100.0,49.61283185840708,convergent_degradation,Preferred recurring diagnostic health-probe trajectory
+6,1102,moderate,SECONDARY,56.57240494764214,59.25925925925926,746.5,True,False,359.0,,,100.0,48.11946902654867,statistical_watch_only,Useful secondary condition-monitoring trajectory
+7,1103,moderate,SECONDARY,56.10944198467918,57.407407407407405,859.0,True,False,359.0,,,100.0,42.31194690265487,statistical_watch_only,Useful secondary condition-monitoring trajectory
+8,1100,moderate,SECONDARY,55.6701981868016,55.55555555555556,611.0,True,False,361.0,,,100.0,46.9060773480663,statistical_watch_only,Useful secondary condition-monitoring trajectory
+9,2500,robust,SUPPORTING,43.79743833017078,100.0,811.0,False,True,,531.0,,86.0,17.802779616148246,health_confirmed_only,Use as supporting evidence; do not rely on alone
+10,2000,moderate,SUPPORTING,8.333333333333334,33.333333333333336,1035.0,False,False,,,,34.0,16.576819407008088,no_persistent_alert,Use as supporting evidence; do not rely on alone
+11,2100,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,2.0,7.713125845737482,no_persistent_alert,Poor standalone observability for this degradation mechanism
+12,2200,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,68.0,21.04909213180901,no_persistent_alert,Poor standalone observability for this degradation mechanism
+13,2300,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,66.0,23.33108563722185,no_persistent_alert,Poor standalone observability for this degradation mechanism
+14,2400,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,2.0,6.689189189189189,no_persistent_alert,Poor standalone observability for this degradation mechanism
+15,3000,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,34.0,10.930074677528854,no_persistent_alert,Poor standalone observability for this degradation mechanism
+16,3100,weak,LOW_OBSERVABILITY,0.0,0.0,,False,False,,,,2.0,5.894039735099338,no_persistent_alert,Poor standalone observability for this degradation mechanism

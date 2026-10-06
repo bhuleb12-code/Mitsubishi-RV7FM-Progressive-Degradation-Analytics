@@ -1,0 +1,2021 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='becdeaba41a20d72ad8eb32818a3919662c4ce9e21315de993c05f678696b6a5' _.fcp.WorkbookFingerprinting.true...creator-author-id='becdeaba41a20d72ad8eb32818a3919662c4ce9e21315de993c05f678696b6a5' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='becdeaba41a20d72ad8eb32818a3919662c4ce9e21315de993c05f678696b6a5' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='becdeaba41a20d72ad8eb32818a3919662c4ce9e21315de993c05f678696b6a5' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='me_ad_tableau_analytical_dataset' inline='true' name='federated.01sjqzk0lkimom13pjg3w0yv4gdg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='me_ad_tableau_analytical_dataset' name='textscan.15700941u7yj9s1ec0kg416t7gpt'>
+            <connection class='textscan' directory='C:/Users/Hp/Industrial-Analytics/Mitsubishi-ME-AD-Predictive-Maintenance/dashboard' filename='me_ad_tableau_analytical_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.15700941u7yj9s1ec0kg416t7gpt' name='me_ad_tableau_analytical_dataset.csv' table='[me_ad_tableau_analytical_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='operation_code' ordinal='0' />
+            <column datatype='string' name='operation_label' ordinal='1' />
+            <column datatype='string' name='operation_family' ordinal='2' />
+            <column datatype='string' name='commanded_speed_group' ordinal='3' />
+            <column datatype='string' name='diagnostic_group' ordinal='4' />
+            <column datatype='integer' name='probe_rank' ordinal='5' />
+            <column datatype='string' name='probe_tier' ordinal='6' />
+            <column datatype='integer' name='probe_tier_order' ordinal='7' />
+            <column datatype='real' name='probe_utility_pct' ordinal='8' />
+            <column datatype='string' name='primary_probe_flag' ordinal='9' />
+            <column datatype='string' name='observability_flag' ordinal='10' />
+            <column datatype='real' name='health_detection_rate_pct' ordinal='11' />
+            <column datatype='real' name='faulty_anomaly_rate_pct' ordinal='12' />
+            <column datatype='real' name='intermediate_anomaly_rate_pct' ordinal='13' />
+            <column datatype='boolean' name='health_warning_detected' ordinal='14' />
+            <column datatype='boolean' name='if_warning_detected' ordinal='15' />
+            <column datatype='string' name='persistent_warning_flag' ordinal='16' />
+            <column datatype='string' name='evidence_convergence' ordinal='17' />
+            <column datatype='string' name='convergent_evidence_flag' ordinal='18' />
+            <column datatype='integer' name='fault_start_cycle' ordinal='19' />
+            <column datatype='real' name='first_persistent_signal_cycle' ordinal='20' />
+            <column datatype='real' name='early_awareness_lead_cycles' ordinal='21' />
+            <column datatype='string' name='early_awareness_band' ordinal='22' />
+            <column datatype='real' name='confirmation_delay_cycles' ordinal='23' />
+            <column datatype='real' name='actionable_maintenance_cycle' ordinal='24' />
+            <column datatype='real' name='maintenance_opportunity_cycles' ordinal='25' />
+            <column datatype='real' name='maintenance_opportunity_pct' ordinal='26' />
+            <column datatype='string' name='maintenance_opportunity_band' ordinal='27' />
+            <column datatype='real' name='monitoring_lead_cycles' ordinal='28' />
+            <column datatype='real' name='decision_lead_cycles' ordinal='29' />
+            <column datatype='string' name='highest_alert' ordinal='30' />
+            <column datatype='integer' name='highest_priority' ordinal='31' />
+            <column datatype='integer' name='maintenance_priority_order' ordinal='32' />
+            <column datatype='string' name='business_priority' ordinal='33' />
+            <column datatype='string' name='highest_maintenance_action' ordinal='34' />
+            <column datatype='string' name='decision_confidence' ordinal='35' />
+            <column datatype='string' name='actionable_flag' ordinal='36' />
+            <column datatype='string' name='maintenance_readiness' ordinal='37' />
+            <column datatype='string' name='predictive_maintenance_class' ordinal='38' />
+            <column datatype='integer' name='predictive_maintenance_class_order' ordinal='39' />
+            <column datatype='string' name='recommended_maintenance_use' ordinal='40' />
+            <column datatype='string' name='observability_interpretation' ordinal='41' />
+            <column datatype='string' name='business_decision_statement' ordinal='42' />
+            <column datatype='integer' name='kpi_operation_count' ordinal='43' />
+            <column datatype='integer' name='kpi_primary_probe' ordinal='44' />
+            <column datatype='integer' name='kpi_strong_actionable' ordinal='45' />
+            <column datatype='integer' name='kpi_inspection_actionable' ordinal='46' />
+            <column datatype='integer' name='kpi_monitoring_only' ordinal='47' />
+            <column datatype='integer' name='kpi_low_observability' ordinal='48' />
+            <column datatype='integer' name='kpi_convergent' ordinal='49' />
+            <column datatype='integer' name='kpi_actionable' ordinal='50' />
+            <column datatype='real' name='display_maintenance_opportunity_cycles' ordinal='51' />
+            <column datatype='real' name='display_early_awareness_lead_cycles' ordinal='52' />
+            <column datatype='real' name='display_monitoring_lead_cycles' ordinal='53' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[operation_code]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>operation_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[operation_label]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>operation_label</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_family</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[operation_family]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>operation_family</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commanded_speed_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[commanded_speed_group]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>commanded_speed_group</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diagnostic_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[diagnostic_group]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>diagnostic_group</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probe_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[probe_rank]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>probe_rank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probe_tier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[probe_tier]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>probe_tier</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probe_tier_order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[probe_tier_order]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>probe_tier_order</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>probe_utility_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[probe_utility_pct]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>probe_utility_pct</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_probe_flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary_probe_flag]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>primary_probe_flag</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>observability_flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[observability_flag]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>observability_flag</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health_detection_rate_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[health_detection_rate_pct]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>health_detection_rate_pct</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>faulty_anomaly_rate_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[faulty_anomaly_rate_pct]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>faulty_anomaly_rate_pct</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>intermediate_anomaly_rate_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[intermediate_anomaly_rate_pct]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>intermediate_anomaly_rate_pct</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health_warning_detected</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[health_warning_detected]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>health_warning_detected</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>if_warning_detected</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[if_warning_detected]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>if_warning_detected</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>persistent_warning_flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[persistent_warning_flag]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>persistent_warning_flag</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evidence_convergence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[evidence_convergence]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>evidence_convergence</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>convergent_evidence_flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[convergent_evidence_flag]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>convergent_evidence_flag</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fault_start_cycle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fault_start_cycle]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>fault_start_cycle</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_persistent_signal_cycle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[first_persistent_signal_cycle]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>first_persistent_signal_cycle</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>early_awareness_lead_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[early_awareness_lead_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>early_awareness_lead_cycles</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>early_awareness_band</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[early_awareness_band]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>early_awareness_band</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confirmation_delay_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[confirmation_delay_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>confirmation_delay_cycles</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actionable_maintenance_cycle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[actionable_maintenance_cycle]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>actionable_maintenance_cycle</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maintenance_opportunity_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[maintenance_opportunity_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>maintenance_opportunity_cycles</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maintenance_opportunity_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[maintenance_opportunity_pct]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>maintenance_opportunity_pct</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maintenance_opportunity_band</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[maintenance_opportunity_band]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>maintenance_opportunity_band</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monitoring_lead_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monitoring_lead_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>monitoring_lead_cycles</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>decision_lead_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[decision_lead_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>decision_lead_cycles</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_alert</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[highest_alert]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>highest_alert</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_priority</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[highest_priority]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>highest_priority</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maintenance_priority_order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[maintenance_priority_order]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>maintenance_priority_order</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>business_priority</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[business_priority]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>business_priority</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_maintenance_action</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[highest_maintenance_action]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>highest_maintenance_action</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>decision_confidence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[decision_confidence]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>decision_confidence</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actionable_flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[actionable_flag]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>actionable_flag</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maintenance_readiness</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[maintenance_readiness]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>maintenance_readiness</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictive_maintenance_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[predictive_maintenance_class]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>predictive_maintenance_class</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictive_maintenance_class_order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[predictive_maintenance_class_order]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>predictive_maintenance_class_order</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recommended_maintenance_use</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[recommended_maintenance_use]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>recommended_maintenance_use</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>observability_interpretation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[observability_interpretation]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>observability_interpretation</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>business_decision_statement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[business_decision_statement]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>business_decision_statement</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_operation_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_operation_count]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_operation_count</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_primary_probe</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_primary_probe]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_primary_probe</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_strong_actionable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_strong_actionable]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_strong_actionable</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_inspection_actionable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_inspection_actionable]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_inspection_actionable</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_monitoring_only</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_monitoring_only]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_monitoring_only</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_low_observability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_low_observability]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_low_observability</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_convergent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_convergent]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_convergent</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kpi_actionable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kpi_actionable]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>kpi_actionable</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>display_maintenance_opportunity_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[display_maintenance_opportunity_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>display_maintenance_opportunity_cycles</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>display_early_awareness_lead_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[display_early_awareness_lead_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>display_early_awareness_lead_cycles</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>display_monitoring_lead_cycles</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[display_monitoring_lead_cycles]</local-name>
+            <parent-name>[me_ad_tableau_analytical_dataset.csv]</parent-name>
+            <remote-alias>display_monitoring_lead_cycles</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Strong Maintenance Opportunity' datatype='real' name='[Calculation_0460473050918912]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [predictive_maintenance_class] = &quot;STRONG_ACTIONABLE&quot;&#13;&#10;THEN [maintenance_opportunity_cycles]&#13;&#10;END' />
+      </column>
+      <column caption='Strong Early Awareness Lead' datatype='real' name='[Calculation_0460473051402241]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [predictive_maintenance_class] = &quot;STRONG_ACTIONABLE&quot;&#13;&#10;THEN [early_awareness_lead_cycles]&#13;&#10;END' />
+      </column>
+      <column caption='me_ad_tableau_analytical_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]' role='measure' type='quantitative' />
+      <column caption='Actionable Flag' datatype='string' name='[actionable_flag]' role='dimension' type='nominal' />
+      <column caption='Actionable Maintenance Cycle' datatype='real' name='[actionable_maintenance_cycle]' role='measure' type='quantitative' />
+      <column caption='Business Decision Statement' datatype='string' name='[business_decision_statement]' role='dimension' type='nominal' />
+      <column caption='Business Priority' datatype='string' name='[business_priority]' role='dimension' type='nominal' />
+      <column caption='Commanded Speed Group' datatype='string' name='[commanded_speed_group]' role='dimension' type='nominal' />
+      <column caption='Confirmation Delay Cycles' datatype='real' name='[confirmation_delay_cycles]' role='measure' type='quantitative' />
+      <column caption='Convergent Evidence Flag' datatype='string' name='[convergent_evidence_flag]' role='dimension' type='nominal' />
+      <column caption='Decision Confidence' datatype='string' name='[decision_confidence]' role='dimension' type='nominal' />
+      <column caption='Decision Lead Cycles' datatype='real' name='[decision_lead_cycles]' role='measure' type='quantitative' />
+      <column caption='Diagnostic Group' datatype='string' name='[diagnostic_group]' role='dimension' type='nominal' />
+      <column caption='Display Early Awareness Lead Cycles' datatype='real' name='[display_early_awareness_lead_cycles]' role='measure' type='quantitative' />
+      <column caption='Display Maintenance Opportunity Cycles' datatype='real' name='[display_maintenance_opportunity_cycles]' role='measure' type='quantitative' />
+      <column caption='Display Monitoring Lead Cycles' datatype='real' name='[display_monitoring_lead_cycles]' role='measure' type='quantitative' />
+      <column caption='Early Awareness Band' datatype='string' name='[early_awareness_band]' role='dimension' type='nominal' />
+      <column caption='Early Awareness Lead Cycles' datatype='real' name='[early_awareness_lead_cycles]' role='measure' type='quantitative' />
+      <column caption='Evidence Convergence' datatype='string' name='[evidence_convergence]' role='dimension' type='nominal' />
+      <column caption='Fault Start Cycle' datatype='integer' name='[fault_start_cycle]' role='measure' type='quantitative' />
+      <column caption='Faulty Anomaly Rate Pct' datatype='real' name='[faulty_anomaly_rate_pct]' role='measure' type='quantitative' />
+      <column caption='First Persistent Signal Cycle' datatype='real' name='[first_persistent_signal_cycle]' role='measure' type='quantitative' />
+      <column caption='Health Detection Rate Pct' datatype='real' name='[health_detection_rate_pct]' role='measure' type='quantitative' />
+      <column caption='Health Warning Detected' datatype='boolean' name='[health_warning_detected]' role='dimension' type='nominal' />
+      <column caption='Highest Alert' datatype='string' name='[highest_alert]' role='dimension' type='nominal' />
+      <column caption='Highest Maintenance Action' datatype='string' name='[highest_maintenance_action]' role='dimension' type='nominal' />
+      <column caption='Highest Priority' datatype='integer' name='[highest_priority]' role='measure' type='quantitative' />
+      <column caption='If Warning Detected' datatype='boolean' name='[if_warning_detected]' role='dimension' type='nominal' />
+      <column caption='Intermediate Anomaly Rate Pct' datatype='real' name='[intermediate_anomaly_rate_pct]' role='measure' type='quantitative' />
+      <column caption='Kpi Actionable' datatype='integer' name='[kpi_actionable]' role='measure' type='quantitative' />
+      <column caption='Kpi Convergent' datatype='integer' name='[kpi_convergent]' role='measure' type='quantitative' />
+      <column caption='Kpi Inspection Actionable' datatype='integer' name='[kpi_inspection_actionable]' role='measure' type='quantitative' />
+      <column caption='Kpi Low Observability' datatype='integer' name='[kpi_low_observability]' role='measure' type='quantitative' />
+      <column caption='Kpi Monitoring Only' datatype='integer' name='[kpi_monitoring_only]' role='measure' type='quantitative' />
+      <column caption='Kpi Operation Count' datatype='integer' name='[kpi_operation_count]' role='measure' type='quantitative' />
+      <column caption='Kpi Primary Probe' datatype='integer' name='[kpi_primary_probe]' role='measure' type='quantitative' />
+      <column caption='Kpi Strong Actionable' datatype='integer' name='[kpi_strong_actionable]' role='measure' type='quantitative' />
+      <column caption='Maintenance Opportunity Band' datatype='string' name='[maintenance_opportunity_band]' role='dimension' type='nominal' />
+      <column caption='Maintenance Opportunity Cycles' datatype='real' name='[maintenance_opportunity_cycles]' role='measure' type='quantitative' />
+      <column caption='Maintenance Opportunity Pct' datatype='real' name='[maintenance_opportunity_pct]' role='measure' type='quantitative' />
+      <column caption='Maintenance Priority Order' datatype='integer' name='[maintenance_priority_order]' role='measure' type='quantitative' />
+      <column caption='Maintenance Readiness' datatype='string' name='[maintenance_readiness]' role='dimension' type='nominal' />
+      <column caption='Monitoring Lead Cycles' datatype='real' name='[monitoring_lead_cycles]' role='measure' type='quantitative' />
+      <column caption='Observability Flag' datatype='string' name='[observability_flag]' role='dimension' type='nominal' />
+      <column caption='Observability Interpretation' datatype='string' name='[observability_interpretation]' role='dimension' type='nominal' />
+      <column caption='Operation Code' datatype='integer' name='[operation_code]' role='dimension' type='ordinal' />
+      <column caption='Operation Family' datatype='string' name='[operation_family]' role='dimension' type='nominal' />
+      <column caption='Operation Label' datatype='string' name='[operation_label]' role='dimension' type='nominal' />
+      <column caption='Persistent Warning Flag' datatype='string' name='[persistent_warning_flag]' role='dimension' type='nominal' />
+      <column caption='Predictive Maintenance Class' datatype='string' name='[predictive_maintenance_class]' role='dimension' type='nominal' />
+      <column caption='Predictive Maintenance Class Order' datatype='integer' name='[predictive_maintenance_class_order]' role='measure' type='quantitative' />
+      <column caption='Primary Probe Flag' datatype='string' name='[primary_probe_flag]' role='dimension' type='nominal' />
+      <column caption='Probe Rank' datatype='integer' name='[probe_rank]' role='measure' type='quantitative' />
+      <column caption='Probe Tier' datatype='string' name='[probe_tier]' role='dimension' type='nominal' />
+      <column caption='Probe Tier Order' datatype='integer' name='[probe_tier_order]' role='measure' type='quantitative' />
+      <column caption='Probe Utility Pct' datatype='real' name='[probe_utility_pct]' role='measure' type='quantitative' />
+      <column caption='Recommended Maintenance Use' datatype='string' name='[recommended_maintenance_use]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Hp/AppData/Local/Temp/TableauTemp/#TableauTemp_1bayaki1iz6j7r0zlie7k1p95xoj.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/05/2026 03:57:15 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>operation_code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[operation_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_code</remote-alias>
+              <ordinal>0</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>operation_label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[operation_label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_label</remote-alias>
+              <ordinal>1</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>operation_family</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[operation_family]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_family</remote-alias>
+              <ordinal>2</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>commanded_speed_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[commanded_speed_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>commanded_speed_group</remote-alias>
+              <ordinal>3</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diagnostic_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[diagnostic_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diagnostic_group</remote-alias>
+              <ordinal>4</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>probe_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[probe_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>probe_rank</remote-alias>
+              <ordinal>5</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>probe_tier</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[probe_tier]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>probe_tier</remote-alias>
+              <ordinal>6</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>probe_tier_order</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[probe_tier_order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>probe_tier_order</remote-alias>
+              <ordinal>7</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>probe_utility_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[probe_utility_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>probe_utility_pct</remote-alias>
+              <ordinal>8</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>primary_probe_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[primary_probe_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>primary_probe_flag</remote-alias>
+              <ordinal>9</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>observability_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[observability_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>observability_flag</remote-alias>
+              <ordinal>10</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>health_detection_rate_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[health_detection_rate_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>health_detection_rate_pct</remote-alias>
+              <ordinal>11</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>faulty_anomaly_rate_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[faulty_anomaly_rate_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>faulty_anomaly_rate_pct</remote-alias>
+              <ordinal>12</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>intermediate_anomaly_rate_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[intermediate_anomaly_rate_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>intermediate_anomaly_rate_pct</remote-alias>
+              <ordinal>13</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>health_warning_detected</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[health_warning_detected]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>health_warning_detected</remote-alias>
+              <ordinal>14</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>if_warning_detected</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[if_warning_detected]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>if_warning_detected</remote-alias>
+              <ordinal>15</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>persistent_warning_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[persistent_warning_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>persistent_warning_flag</remote-alias>
+              <ordinal>16</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>evidence_convergence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[evidence_convergence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>evidence_convergence</remote-alias>
+              <ordinal>17</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>convergent_evidence_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[convergent_evidence_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>convergent_evidence_flag</remote-alias>
+              <ordinal>18</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fault_start_cycle</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fault_start_cycle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fault_start_cycle</remote-alias>
+              <ordinal>19</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>first_persistent_signal_cycle</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[first_persistent_signal_cycle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>first_persistent_signal_cycle</remote-alias>
+              <ordinal>20</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>early_awareness_lead_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[early_awareness_lead_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>early_awareness_lead_cycles</remote-alias>
+              <ordinal>21</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>early_awareness_band</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[early_awareness_band]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>early_awareness_band</remote-alias>
+              <ordinal>22</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>confirmation_delay_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[confirmation_delay_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>confirmation_delay_cycles</remote-alias>
+              <ordinal>23</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>actionable_maintenance_cycle</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[actionable_maintenance_cycle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>actionable_maintenance_cycle</remote-alias>
+              <ordinal>24</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maintenance_opportunity_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[maintenance_opportunity_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maintenance_opportunity_cycles</remote-alias>
+              <ordinal>25</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maintenance_opportunity_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[maintenance_opportunity_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maintenance_opportunity_pct</remote-alias>
+              <ordinal>26</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maintenance_opportunity_band</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[maintenance_opportunity_band]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maintenance_opportunity_band</remote-alias>
+              <ordinal>27</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>monitoring_lead_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[monitoring_lead_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>monitoring_lead_cycles</remote-alias>
+              <ordinal>28</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>decision_lead_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[decision_lead_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>decision_lead_cycles</remote-alias>
+              <ordinal>29</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>highest_alert</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[highest_alert]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>highest_alert</remote-alias>
+              <ordinal>30</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>highest_priority</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[highest_priority]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>highest_priority</remote-alias>
+              <ordinal>31</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maintenance_priority_order</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[maintenance_priority_order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maintenance_priority_order</remote-alias>
+              <ordinal>32</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>business_priority</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[business_priority]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>business_priority</remote-alias>
+              <ordinal>33</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>highest_maintenance_action</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[highest_maintenance_action]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>highest_maintenance_action</remote-alias>
+              <ordinal>34</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>decision_confidence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[decision_confidence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>decision_confidence</remote-alias>
+              <ordinal>35</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>actionable_flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[actionable_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>actionable_flag</remote-alias>
+              <ordinal>36</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>maintenance_readiness</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[maintenance_readiness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>maintenance_readiness</remote-alias>
+              <ordinal>37</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>predictive_maintenance_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[predictive_maintenance_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>predictive_maintenance_class</remote-alias>
+              <ordinal>38</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>predictive_maintenance_class_order</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[predictive_maintenance_class_order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>predictive_maintenance_class_order</remote-alias>
+              <ordinal>39</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recommended_maintenance_use</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[recommended_maintenance_use]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recommended_maintenance_use</remote-alias>
+              <ordinal>40</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>observability_interpretation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[observability_interpretation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>observability_interpretation</remote-alias>
+              <ordinal>41</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>business_decision_statement</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[business_decision_statement]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>business_decision_statement</remote-alias>
+              <ordinal>42</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_operation_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_operation_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_operation_count</remote-alias>
+              <ordinal>43</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_primary_probe</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_primary_probe]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_primary_probe</remote-alias>
+              <ordinal>44</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_strong_actionable</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_strong_actionable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_strong_actionable</remote-alias>
+              <ordinal>45</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_inspection_actionable</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_inspection_actionable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_inspection_actionable</remote-alias>
+              <ordinal>46</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_monitoring_only</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_monitoring_only]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_monitoring_only</remote-alias>
+              <ordinal>47</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_low_observability</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_low_observability]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_low_observability</remote-alias>
+              <ordinal>48</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_convergent</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_convergent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_convergent</remote-alias>
+              <ordinal>49</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kpi_actionable</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[kpi_actionable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kpi_actionable</remote-alias>
+              <ordinal>50</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>display_maintenance_opportunity_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[display_maintenance_opportunity_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>display_maintenance_opportunity_cycles</remote-alias>
+              <ordinal>51</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>display_early_awareness_lead_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[display_early_awareness_lead_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>display_early_awareness_lead_cycles</remote-alias>
+              <ordinal>52</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>display_monitoring_lead_cycles</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[display_monitoring_lead_cycles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>display_monitoring_lead_cycles</remote-alias>
+              <ordinal>53</ordinal>
+              <family>me_ad_tableau_analytical_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='me_ad_tableau_analytical_dataset.csv' id='me_ad_tableau_analytical_dataset.csv_E457EDAEC3AB4BF3AF3C001F12932793'>
+            <properties context=''>
+              <relation connection='textscan.15700941u7yj9s1ec0kg416t7gpt' name='me_ad_tableau_analytical_dataset.csv' table='[me_ad_tableau_analytical_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='operation_code' ordinal='0' />
+                  <column datatype='string' name='operation_label' ordinal='1' />
+                  <column datatype='string' name='operation_family' ordinal='2' />
+                  <column datatype='string' name='commanded_speed_group' ordinal='3' />
+                  <column datatype='string' name='diagnostic_group' ordinal='4' />
+                  <column datatype='integer' name='probe_rank' ordinal='5' />
+                  <column datatype='string' name='probe_tier' ordinal='6' />
+                  <column datatype='integer' name='probe_tier_order' ordinal='7' />
+                  <column datatype='real' name='probe_utility_pct' ordinal='8' />
+                  <column datatype='string' name='primary_probe_flag' ordinal='9' />
+                  <column datatype='string' name='observability_flag' ordinal='10' />
+                  <column datatype='real' name='health_detection_rate_pct' ordinal='11' />
+                  <column datatype='real' name='faulty_anomaly_rate_pct' ordinal='12' />
+                  <column datatype='real' name='intermediate_anomaly_rate_pct' ordinal='13' />
+                  <column datatype='boolean' name='health_warning_detected' ordinal='14' />
+                  <column datatype='boolean' name='if_warning_detected' ordinal='15' />
+                  <column datatype='string' name='persistent_warning_flag' ordinal='16' />
+                  <column datatype='string' name='evidence_convergence' ordinal='17' />
+                  <column datatype='string' name='convergent_evidence_flag' ordinal='18' />
+                  <column datatype='integer' name='fault_start_cycle' ordinal='19' />
+                  <column datatype='real' name='first_persistent_signal_cycle' ordinal='20' />
+                  <column datatype='real' name='early_awareness_lead_cycles' ordinal='21' />
+                  <column datatype='string' name='early_awareness_band' ordinal='22' />
+                  <column datatype='real' name='confirmation_delay_cycles' ordinal='23' />
+                  <column datatype='real' name='actionable_maintenance_cycle' ordinal='24' />
+                  <column datatype='real' name='maintenance_opportunity_cycles' ordinal='25' />
+                  <column datatype='real' name='maintenance_opportunity_pct' ordinal='26' />
+                  <column datatype='string' name='maintenance_opportunity_band' ordinal='27' />
+                  <column datatype='real' name='monitoring_lead_cycles' ordinal='28' />
+                  <column datatype='real' name='decision_lead_cycles' ordinal='29' />
+                  <column datatype='string' name='highest_alert' ordinal='30' />
+                  <column datatype='integer' name='highest_priority' ordinal='31' />
+                  <column datatype='integer' name='maintenance_priority_order' ordinal='32' />
+                  <column datatype='string' name='business_priority' ordinal='33' />
+                  <column datatype='string' name='highest_maintenance_action' ordinal='34' />
+                  <column datatype='string' name='decision_confidence' ordinal='35' />
+                  <column datatype='string' name='actionable_flag' ordinal='36' />
+                  <column datatype='string' name='maintenance_readiness' ordinal='37' />
+                  <column datatype='string' name='predictive_maintenance_class' ordinal='38' />
+                  <column datatype='integer' name='predictive_maintenance_class_order' ordinal='39' />
+                  <column datatype='string' name='recommended_maintenance_use' ordinal='40' />
+                  <column datatype='string' name='observability_interpretation' ordinal='41' />
+                  <column datatype='string' name='business_decision_statement' ordinal='42' />
+                  <column datatype='integer' name='kpi_operation_count' ordinal='43' />
+                  <column datatype='integer' name='kpi_primary_probe' ordinal='44' />
+                  <column datatype='integer' name='kpi_strong_actionable' ordinal='45' />
+                  <column datatype='integer' name='kpi_inspection_actionable' ordinal='46' />
+                  <column datatype='integer' name='kpi_monitoring_only' ordinal='47' />
+                  <column datatype='integer' name='kpi_low_observability' ordinal='48' />
+                  <column datatype='integer' name='kpi_convergent' ordinal='49' />
+                  <column datatype='integer' name='kpi_actionable' ordinal='50' />
+                  <column datatype='real' name='display_maintenance_opportunity_cycles' ordinal='51' />
+                  <column datatype='real' name='display_early_awareness_lead_cycles' ordinal='52' />
+                  <column datatype='real' name='display_monitoring_lead_cycles' ordinal='53' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='KPI - Early Awareness'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='me_ad_tableau_analytical_dataset' name='federated.01sjqzk0lkimom13pjg3w0yv4gdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01sjqzk0lkimom13pjg3w0yv4gdg'>
+            <column caption='Strong Early Awareness Lead' datatype='real' name='[Calculation_0460473051402241]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [predictive_maintenance_class] = &quot;STRONG_ACTIONABLE&quot;&#13;&#10;THEN [early_awareness_lead_cycles]&#13;&#10;END' />
+            </column>
+            <column caption='Early Awareness Lead Cycles' datatype='real' name='[early_awareness_lead_cycles]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0460473051402241]' derivation='Median' name='[med:Calculation_0460473051402241:qk]' pivot='key' type='quantitative' />
+            <column caption='Predictive Maintenance Class' datatype='string' name='[predictive_maintenance_class]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01sjqzk0lkimom13pjg3w0yv4gdg].[med:Calculation_0460473051402241:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{176886E3-504E-4D98-AF7D-B24483CE407D}' />
+    </worksheet>
+    <worksheet name='KPI - Maintenance Opportunity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='me_ad_tableau_analytical_dataset' name='federated.01sjqzk0lkimom13pjg3w0yv4gdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01sjqzk0lkimom13pjg3w0yv4gdg'>
+            <column caption='Strong Maintenance Opportunity' datatype='real' name='[Calculation_0460473050918912]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [predictive_maintenance_class] = &quot;STRONG_ACTIONABLE&quot;&#13;&#10;THEN [maintenance_opportunity_cycles]&#13;&#10;END' />
+            </column>
+            <column caption='Maintenance Opportunity Cycles' datatype='real' name='[maintenance_opportunity_cycles]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0460473050918912]' derivation='Median' name='[med:Calculation_0460473050918912:qk]' pivot='key' type='quantitative' />
+            <column caption='Predictive Maintenance Class' datatype='string' name='[predictive_maintenance_class]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01sjqzk0lkimom13pjg3w0yv4gdg].[med:Calculation_0460473050918912:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D2AAE94E-B277-4865-A4B0-0A26E672D20E}' />
+    </worksheet>
+    <worksheet name='KPI - Strong Actionable'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='me_ad_tableau_analytical_dataset' name='federated.01sjqzk0lkimom13pjg3w0yv4gdg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01sjqzk0lkimom13pjg3w0yv4gdg'>
+            <column caption='Kpi Strong Actionable' datatype='integer' name='[kpi_strong_actionable]' role='measure' type='quantitative' />
+            <column-instance column='[kpi_strong_actionable]' derivation='Sum' name='[sum:kpi_strong_actionable:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01sjqzk0lkimom13pjg3w0yv4gdg].[sum:kpi_strong_actionable:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.01sjqzk0lkimom13pjg3w0yv4gdg].[sum:kpi_strong_actionable:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontname='Courier New'>STRONG ACTIONABLE CONDITIONS</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A884F2DB-7327-46D2-9B4F-68720E155C1E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='KPI - Strong Actionable'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{07675E23-E3E7-40C4-A1B8-A38CE21FEE1D}' />
+    </window>
+    <window class='worksheet' name='KPI - Maintenance Opportunity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BCD05188-9CD5-4613-850E-C13F205D8E01}' />
+    </window>
+    <window class='worksheet' maximized='true' name='KPI - Early Awareness'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12178A09-91A8-4EBD-840B-797DA13DB326}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='24' name='KPI - Early Awareness' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAYCAYAAABKtPtEAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACi0lEQVRYhe2YXUiTYRTHf0aKSRc56QNMJTMSoiC88CqLbsIiECZSahBRYlCIYRBIsxma
+      RKCooSTIgkQqCVlEhAhNSdD8CEVIJdEy0V73yowZc4vTRYpzm2EX+Rjud/mc857zf/4czgNv
+      iIgIm5gtqgWoJmiAagGqCRqgWoBqggaoFqCaoAGqBagmaIBqAarZ9AZsVS3gNwt8aamnJzaX
+      tIMBwh6dj29f8rpzgnkgYm8K6eePERO2+G13M6/ejGAHiDqCMSOVRIPv1eboslTRsiOdQu8m
+      ohS32HstkmfMllLTZTHZVkn70Cy1bSPicImIuGT6fbVcutYkUyIiEy3yxDogk063iLjFOWqV
+      m+fuS7d7ZQlHq0kK7t2VDJ8mig2Yke7WXrG7RcRmWt0AP8bEkmmS1dJtpkyxjHkdOGxSfKtJ
+      psYskunTRPEOiCLp5FH8pvWPeNA7GmlLPEVSgOjCcAPP9dOciFs6cdLx8AXxuUZ2B8jfIDtg
+      DQw1U1JnpbPfxaE8MzW3EwhbitnfUVfeQGvfZwxnzdwpT2LXYsjZUcmz2Hwq4oBx/7IhIhvk
+      j1BbEUWYMaesJdlDV1k+IxeqyIr2j04/vcqjmBqufCsgp354OfDzO9pcKDsjUym05pPMfzIB
+      c7pOhMHgJXaeGQ3Cw8Gp64QaDMvTgAf7zDzhCbAn7QHWNK9C44/Jqt9Hg5fLig0YormkiUGA
+      yX76KaGkHTiUTrajmLLtldQYo5htLyWncZ6Ew9FsA2Y/DcCZUsqiwNXTQO7FPgzJ+4kEfnwd
+      YPLADSoCLYhA/O3eXi9qr1fL4IqnzC1OXRNN08Xp9s93OTTRNG3xqVw7G2cH+GAb9XA8/t8P
+      6IY1YL34BbELeS57W0UFAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='24' name='KPI - Maintenance Opportunity' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAYCAYAAABKtPtEAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACF0lEQVRYhe2YX0hTYRjGf8ZpBI0EDxQoIUS1IthFLW8mJkZ01UXkxS62XRQjiYIuwggq
+      YqB2OSLogDiQFjhYpChdtAKFBiGLQ3+8GNQ5jsOiFCcbdtE8crxYkf9mkatP6fwu3+d93/N8
+      Dx/nwKmxLMviP2abaAOisQMQbUA0dgCiDYjGDkC0AdHYAYg2IBo7ANEGRGMHINpAmRJGUmEw
+      s05L8S3x7kv4zl9DSRqUVupmHjUeIzWz1rBJXo0TW0MUHIBJXu3navsFYi9fo36p1KYRvd6P
+      IxBhINpNm3GHm0+L38USRrKHgC/MyLjKh7nloyUjSU/AR3hkHHWliPAACuizbm4PPOTGyfrK
+      bW8e8661k7N7HYCDg8GL1A0/IQuAjo6fvkSEoNu5alTXwd+XIBJ0s1oFqToH+VNkjrXJv+zK
+      vv/M/uN7fhakozTVDfHRhEbJRcupyrOu9USE34DfY2FhB86dSysSkjSJkdv47i0RQG1tES1r
+      Lqlk0ScPcaBx47u3RAByczNTQ8/48doztRe8OnyapirsrhH7TzDDYFeCCYBPadJ48NQDR9rx
+      F8Lcdd7jwTkZMNEeXaZzzMUZ7yzPh7cTit6iZRcwk6JXGWUKmMukyTV4cDlhd2sHIS+kehVG
+      yyLpXAOeskhHyIsMYG1SlCv3rYn55bX5r3lrerpgfavicwTfgMqMaSYn9v39j9SmDeBfsQi/
+      /aOUAboe/AAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='35' name='KPI - Strong Actionable' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAjCAYAAADCDAUrAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAKhklEQVR4nO2ce1SUZRrAf+XMCJjkhQyOqUUGqaXmmCGrtVKR92u77IJHS3Rhl0UTwesC
+      4iU3IDHUVSpb3KCVBBLFNFFaTFFpzNy0wguCygF1dGCUwbnou3/MhRmuZVF7zny/v/ie932f
+      77m8z/d+3zPncJ8QQiAh4aTc/2sbICHxayIVgIRTIxWAhFMjFYCEUyMVgIRTIxWAhFMjFYCE
+      UyMVgIRTIxWAhFMjFYCEUyMVgIRTIxWAhFMjFYCEUyMVgIRTIxWAhFMjFYCEUyMVgIRTIxWA
+      hFMjFYCEUyMVgIRTIxWAhFMjFYCEUyMVgIRTIxWAhFMja+8bmHQaanR3QOGOh7vCLDRoUWsN
+      TSd3cKNLVwUGTQ26O2aRwt0D67IGDGjVWgx0wK1LV9xkACZ0mhp0uNGlqxsy6/Ud+zl29nRw
+      o0tnBchkbQfBzt4Obl3o6tZ4hfVeZntdMKBQ3G+TNcbqk80Wm/uOuluLnS0uVtusc0w6NDU6
+      7tivAQxaNbaQNxpzyEfjMau+FnxoG/tcdUZ2FxQKWTNjPzCPd9vIReO9ZfWnhT13X3v+Z7iK
+      vEj+tPII122SAczP20rI+XiGRu1uusA3krSJBwlLOukgdn0ihLfT5jPMHdCWkBK2gMyz9ebB
+      7sNZsimFsWeXMHLZ5yAfwPxtWwmpXMnwuXkYAUat5ouk4XyTEsaCzLPU2+l+dslnbJrWvRUv
+      jrFmZAQ5lkXygNXsT3yFTtbhxvbI5ciNg4n+bDG35k5jfWlTjePWqkjwySJ0fBIOnrpOY+MX
+      S3gOE2U50cxNPkS1EUDOY0HvsCXmQT6aEsL7l6D7pFRyY/uwY+YkUk4D9GJ25ia6Jo4n6STQ
+      ew4f5YbhA3BsDSMjchz8xnUQ87emEeJ9ns0WnWZ6MTvzE8J9AarJCrXoa86H51sJG2AqyyF6
+      bjKHzE6YY+M6lQ2FMSjvKY+vMeloOnl2jsg9RxCdmsw0b1mTXJkZREz+FoLOtLDnRLtxWKzw
+      GyWWHqgVQghhvJ4r5iqDRXq5EKIoTiiD00W5KBfpwUoRV2QvE6I8PVgo44qEEELoa8+Kj8L9
+      xKhElRCiWmSH+4nAmJ3iol4IYbwuvtowQ/gFrhCHb1nWKZXCLzxbVAshRHm6CFbGiSIhxK29
+      McJvVJTIvag3m6cvFWnBSjEj4/IP8qZ08xShDAwUgcpwka22Sm+JvTF+YlR4hijVCyGEUVzf
+      t1SMUgaL9PLmfLOTWbGz0YpRlSgC/WaIDV9dF0YhhP7iThET6CdmZJQLIYpEnFIplMpAkagy
+      CiGEKIpTiuD0ctv6W3tjRKDfKJGoslNqF1+hrxXfpAUL5YwMYfW+PD24YdyBxjY340PzEROb
+      pyjF5DWHxXWjEELoRWlasFAq40TRT8ij/d/62kviS7t1ds6KOOtea+K/Y17a8RvAgx5e9Vw+
+      UcKpy1rudpvA4vdjCOwJyGTIG796NCcDFC4dcXFzNV9U7mfnlwOYtWACvRSArBvPRCxiuiKP
+      3cdM5jlevniXJrM854qdljqK9hXSe3oEU3pZzm2FD7PeK2D973q27YqphNysKgKiNjFr8Jfs
+      2W/RXVfEvsLeTI8JwUcBIKPby/NYvjCMMX1kyGRyZI5ONiNrSsmnuRgnRRD2TDdkgKLXBOLn
+      +XN65wHKLHN8fT3IWprCcVPj1VfI317Iykmwp6AEh2FTHRq1GrX2KhfOqZG7P4BL294DoK9V
+      c+rdEAKSrhAYGs+4wW0s+LaA/IuvEBntTzcZgAKfkGWsWBGE8p7z6IjC/RGGWtblFNW1bk8L
+      e64dvwF8CE3+G5Xxq5nz75sY5Z3pNzGWxKcA/1iO+ANUNEy3ySzS3VEMtZxYrk+E8Ha8Ek59
+      yhl6Evqw/X364jMAii9Vmi/dA1n05/8StjKRT9MGWuaouVYNT07yBkB79jAlFZZz0mMAvx3s
+      1Wog6g5kk3fnReIHufOkZhhJWTs4ExSGj/oa1TyJRa2FHjz/+x4AhGw9YhYdtI71bJC1SCUX
+      zhnxCnjYwaZOfX3pc76Cy/Q1ex26DP8NM1idNo6/2i8/s4Osr/vx7utP0zE6mwORw3jF+r52
+      /gNmj/7ANvXx4N7IWzLDoEN3v5vt22l/wmj2A4y7jVfABLza8AL1Vap8fXjcwYn+jB0LFOfc
+      Yx6boz9PD4Hia2poeDFtSgt7rv1OAFMVp7RDiPvwc44cPUjBh1F4/WchyfvaqFQrL8Wzd286
+      McO7U3+jhtsAfbzxoZIq+4eC6WuOl8jp+1jDk/zBsfHE+heT/NY+tAA8wAPuUH6pEqjj1I71
+      pKamkpiwmNiUQipbNcR8ehjr9vK38aN5NbkELmaRW2ICj4fw5BwXKlpV8CPpyWN95VRVXXF4
+      el85UUKFrzd9rAJZf8JWvQ7/XM2Wcw3zvi3I5yLfMXrex1wzFrI93y5YvpHkqFSoVMUUpv8F
+      l+0LSDvevBXFb73InMwGx8atVZEXM5RHPB6k7ngGm4pafjID4NEDr7IyKpqcUPyEPDZHGee+
+      B8+HPFq3pwXarwBOZhA1O5qNqqsYZG50cnfBFdDV3zaPm3Ro1BrqTObj1faFbtJxs84SNYUP
+      QSmbiPTcx6KET6jqOoagF06zbuFGVFcNYLjErqWxZMunMtEf9HqT+ZjXujB2YTS+ZaVUAdCd
+      ES89y5l/vcOuc3cYGrON3G1pzBkC3gEjGjZVE0zoLuSQW9SPsIyDHFWpUBUXsGr0HfKydnFV
+      /gKBAWVsjrPYgwldVQErJ09mveXD0aBVo67VW14/NOhMdro1atSaOkzoqVWrUWt0mIBh06bT
+      JTuWpbsuoDOZuHFiIwvXnebZqaPpY9CjB/S1Ggw+YSwLUlNaar3X5+TmaBm9qgDV0YNkhPXj
+      66xtnNDp0NpsUKNWazG4dMXDtZ7berONmjqT3bia63VGSzpu2nLU8cVVvP/Hnpw9tosthc18
+      3dvT/2XGe+1m9dJdXNCZAAPaU1sJDXyDfJcJ95hHMOjs4qU+xxdvJ/DexQACX+jUEG91LXpM
+      1GksvtpC3nTPtV8XqGIrIdMzucYNbtQDyPEcEU1q8jS8ZVCT/wZjlh/CaJ3vOZP0/Ei6ZoXy
+      atJJs9wie0pbyLLJCykcuJw9iT58tjCKdYeqMQKuT0wjYW0MAXdzCH01iZNGbN0Uz8yZ/CHl
+      Ud5SJfA8WkpSIlj08XfctDYlPIcwKyGFOcoWjs6afN4Ys5xDRkA+guV71vHM7plMMrdd8JyZ
+      Tv7Mu2yNW8pmiz3gyiNjl7ApbixeslOsH/8aW6utCuWMWL6HdeO7QGVWg7224UmkHonFHxM3
+      itcTsSiTs/WA3JMR4W+yYuZAvlszkoicekDOoJhstoyvYOXUuXwf/Hf8ti+23MsTVepztu6J
+      fICSDqePc9veN+sraUwPsifb29iAb+Q/mHhwHkkORloYtxZVG20gU1UhSVHx5Ng6ZJ0Z+to7
+      JIYNxN1whqwfncexHHbo8sjp/OhvCH/zTYJ8FDTfBbJ0Hns2v+fatQ1qxtzrvdNs//zeMek0
+      1Og7WnrFP94eQ+N+90+lcX/+51GKVq2Fn1XnL4/59wwcfo9xGLunPP48/AIFICHx/8v/AL9U
+      3VeTMvOhAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
