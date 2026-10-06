@@ -208,7 +208,7 @@ This led to an important design decision:
 
 ---
 
-# Phase 5 — Health Indicator
+## Phase 5 — Health Indicator
 
 A multijoint degradation framework was developed using robust deviations from healthy operation.
 
@@ -253,7 +253,7 @@ The strongest trajectories produced substantial warning lead before the dataset-
 
 ---
 
-# Phase 6 — Isolation Forest Anomaly Detection
+## Phase 6 — Isolation Forest Anomaly Detection
 
 Isolation Forest was introduced as an **independent statistical evidence stream**.
 
@@ -307,7 +307,7 @@ As health deteriorated, Isolation Forest anomaly prevalence increased substantia
 
 ---
 
-# Phase 7 — Multi-Signal Maintenance Alert Framework
+## Phase 7 — Multi-Signal Maintenance Alert Framework
 
 The health indicator and Isolation Forest were combined into a persistent multi-signal maintenance framework.
 
@@ -355,7 +355,7 @@ An important engineering implication is that normal production movements can pot
 
 ---
 
-# Phase 8 — Predictive Maintenance Opportunity
+## Phase 8 — Predictive Maintenance Opportunity
 
 The final phase translated analytical warning evidence into maintenance-planning opportunity.
 
